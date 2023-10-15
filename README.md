@@ -1,1 +1,1 @@
-# Patterns.Adapter
+# Design Patterns **Adapter**
