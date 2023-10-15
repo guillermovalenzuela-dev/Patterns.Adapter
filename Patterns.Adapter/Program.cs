@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World1!");
+﻿using Patterns.Adapter;
+
+INewInterface adapter = new Adapter();
+adapter.NewMethod(); // This calls the legacy method via the adapter.
